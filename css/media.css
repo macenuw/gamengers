@@ -1,0 +1,252 @@
+@media(max-width: 1440px) {}
+
+@media(max-width: 1140px) {
+    .turbo-config__info-text {
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 400;
+        width: 400px;
+    }
+    .our-games__games {
+        justify-content: center;
+        margin: auto;
+    }
+    .gta {
+        width: 740px;
+        height: 740px;
+    }
+    .farcry {
+        width: 900px;
+    }
+    .rainbow {
+        width: 900px;
+    }
+    .fortnite {
+        width: 900px;
+    }
+}
+
+@media(max-width: 1040px) {
+    .cdmw__inner {
+        flex-wrap: wrap;
+        padding: 0 50px;
+        justify-content: center;
+    }
+    .price__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .turbo-config__configuration {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+    .turbo-config__title {
+        text-align: center;
+    }
+    .turbo-config__img {
+        /* display: none; */
+    }
+    .gta {
+        width: 400px;
+        height: 300px;
+        background-image: url("../images/gta-logo300.png"), url("../images/gta-ppl300.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+@media(max-width: 850px) {
+    .logo__inner {
+        background-image: url("../images/big-logo300.png");
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 220px;
+        margin: auto;
+    }
+    .cdmw__inner {
+        padding: 0 50px;
+    }
+    .our-games__inner {
+        /* display: none; */
+    }
+    .footer__inner {
+        height: 350px;
+        background-image: url("../images/big-logo300.png");
+    }
+    .pubg {
+        height: 171px;
+        width: 300px;
+        background-image: url(../images/pubg300.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 10px;
+    }
+    .blur {
+        height: 175px;
+        width: 300px;
+        background-image: url(../images/blur300.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 10px;
+    }
+    .apex {
+        height: 185px;
+        width: 300px;
+        background-image: url(../images/apex300.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 10px;
+    }
+    .fortnite {
+        height: 80px;
+        width: 300px;
+        background-image: url("../images/fortnite300.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .rainbow {
+        height: 120px;
+        width: 300px;
+        background-image: url("../images/rainbow-name300.png"), url("../images/rainbow-ppl300.png");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+    .farcry {
+        height: 80px;
+        width: 300px;
+        background-image: url("../images/farcry300.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media(max-width: 750px) {
+    .header__menu-items {
+        flex-wrap: wrap;
+    }
+    .header__menu_item {
+        list-style: none;
+        text-align: center;
+        color: white;
+        margin: 5px;
+        font-size: 18px;
+    }
+    .footer__addres-text,
+    .footer__contact-tel {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media(max-width: 650px) {
+    .logo__inner {
+        text-align: right;
+        background-image: url("../images/big-logo300.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 220px;
+    }
+    .cdmw__call-duty-name {
+        background-image: url("../images/call_of_duty_name300.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 80px;
+    }
+    .cdmw__call-duty-warrior {
+        background-image: url("../images/call_of_duty_warrior300.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 290px;
+    }
+    .csmw__most-wanted-name {
+        background-image: url("../images/most-wanted-grafiti300.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 80px;
+    }
+    .csmw__most-wanted-car {
+        background-image: url("../images/most-wanted-car300.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 160px;
+        width: 300px;
+    }
+    .turbo-config__title {
+        width: 500px;
+    }
+    .turbo-config__configuration {
+        width: 500px;
+    }
+    .price-bg {
+        width: 400px;
+        height: 200px;
+    }
+    .regular-price,
+    .turbo-price {
+        max-width: 500px;
+    }
+}
+
+@media(max-width: 550px) {
+    .title {
+        font-size: 28px;
+    }
+    .price-bg {
+        width: 400px;
+        height: 200px;
+    }
+    .price__list {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    .price-list-item {
+        max-width: 400px;
+    }
+    .regular-price,
+    .turbo-price,
+    .price-bg {
+        max-width: 400px;
+    }
+    .turbo-config__info-text {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+        width: 300px;
+    }
+}
+
+@media(max-width: 440px) {
+    .turbo-config__title {
+        width: 360px;
+    }
+    .turbo-config__configuration {
+        width: 360px;
+    }
+    .price-list-item {
+        max-width: 360px;
+    }
+    .price-bg {
+        width: 300px;
+    }
+    .price-list-item,
+    .price-list {
+        max-width: 300px;
+        margin: 0;
+    }
+}
+
+@media(max-width: 360px) {
+    .turbo-config__title {
+        width: 300px;
+    }
+    .turbo-config__configuration {
+        width: 300px;
+    }
+    .regular-price,
+    .turbo-price {
+        max-width: 300px;
+    }
+}

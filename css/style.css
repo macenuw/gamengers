@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    font-family: Play;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: black;
+}
+
+.header__menu-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__menu_item {
+    list-style: none;
+    text-align: center;
+    color: white;
+    margin: 15px
+}
+
+.header__menu_item:hover {
+    transform: scale(1.3);
+}
+
+.header__menu_item+.header__menu_item {
+    padding-right: 30px;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: white;
+}
+
+.header__menu-link:hover {
+    color: #ff9900;
+}
+
+.logo__inner {
+    text-align: center;
+    background-image: url("../images/big-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+.cdmw__inner {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.cdmw__call-duty {
+    width: 600px;
+}
+
+.cdmw__call-duty-name {
+    background-image: url("../images/call_of_duty_name.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+.cdmw__call-duty-warrior {
+    background-image: url("../images/call_of_duty_warrior.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+}
+
+.csmw__most-wanted {
+    width: 550px;
+}
+
+.csmw__most-wanted-name {
+    background-image: url("../images/most-wanted-grafiti.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+.csmw__most-wanted-car {
+    background-image: url("../images/most-wanted-car.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 550px;
+}
+
+.price__inner {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.turbo-price {
+    padding: 30px 0;
+}
+
+.regular-price {
+    padding: 30px 0;
+}
+
+.price-bg {
+    background-image: url("../images/price-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 360px;
+}
+
+.price__list {
+    text-align: center;
+    padding-top: 90px;
+    margin-top: 60px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 36px;
+    list-style: none;
+}
+
+.turbo-config__items {
+    background-color: white;
+}
+
+.turbo-config__title {
+    padding: 30px;
+}
+
+.turbo-config__configuration {
+    display: flex;
+}
+
+.turbo-config__info-text {
+    text-align: center;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+.our-games__inner {
+    background-color: white;
+}
+
+.our-games__games {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gta {
+    width: 740px;
+    height: 740px;
+    background-image: url("../images/gta-logo.png"), url("../images/gta-ppl.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pubg {
+    height: 228px;
+    width: 400px;
+    background-image: url("../images/pubg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.blur {
+    height: 228px;
+    width: 400px;
+    background-image: url("../images/blur.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.apex {
+    height: 228px;
+    width: 400px;
+    background-image: url("../images/apex.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.farcry {
+    height: 215px;
+    width: 1200px;
+    background-image: url("../images/farcry.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rainbow {
+    height: 370px;
+    width: 1200px;
+    background-image: url("../images/rainbow-name.png"), url("../images/rainbow-ppl.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.fortnite {
+    height: 215px;
+    width: 1200px;
+    background-image: url("../images/fortnite.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cyberpunk {
+    height: 215px;
+    width: 1200px;
+    background-image: url("../images/cyberpunk.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.valorant {
+    height: 215px;
+    width: 1200px;
+    background-image: url("../images/valorant.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer__inner {
+    height: 600px;
+    background-image: url("../images/big-logo.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.footer__addres-text {
+    color: white;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    max-width: 800px;
+    padding-top: 100px;
+}
+
+.footer__contact-tel {
+    color: white;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    max-width: 350px;
+    margin-top: 50px;
+}
