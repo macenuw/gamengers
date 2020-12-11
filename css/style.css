@@ -2,6 +2,25 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: black;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.py-30 {
+    padding: 30px 0;
+}
+
+.bg-color-white {
+    background-color: white;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -16,13 +35,6 @@
     text-align: center;
     color: #000000;
     text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
-}
-
-body {
-    font-family: 'Play', sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    background-color: black;
 }
 
 .header__menu-items {
@@ -112,14 +124,6 @@ body {
     background-color: white;
 }
 
-.turbo-price {
-    padding: 30px 0;
-}
-
-.regular-price {
-    padding: 30px 0;
-}
-
 .price-bg {
     background-image: url("../images/price-bg.png");
     background-position: center;
@@ -140,10 +144,6 @@ body {
 
 .turbo-config__items {
     background-color: white;
-}
-
-.turbo-config__title {
-    padding: 30px;
 }
 
 .turbo-config__configuration {

@@ -37,9 +37,8 @@
         justify-content: center;
     }
     .turbo-config__configuration {
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 0;
+        flex-direction: column;
+        align-items: center;
     }
     .turbo-config__title {
         text-align: center;
@@ -175,9 +174,6 @@
         width: 300px;
     }
     .turbo-config__title {
-        width: 500px;
-    }
-    .turbo-config__configuration {
         width: 500px;
     }
     .price-bg {
