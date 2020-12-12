@@ -2,25 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Play', sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    background-color: black;
-}
-
-.p-30 {
-    padding: 30px;
-}
-
-.py-30 {
-    padding: 30px 0;
-}
-
-.bg-color-white {
-    background-color: white;
-}
-
 .container {
     max-width: 1200px;
     margin: auto;
@@ -37,16 +18,29 @@ body {
     text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
 }
 
+body {
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    background-image: url("../images/Night\ City\ Revisited\ -\ Cyberpunk\ 2077\ [4K]_.png");
+    background-attachment: fixed, fixed;
+}
+
+.header__menu {
+    background-image: url("../images/bg12121.png");
+}
+
 .header__menu-items {
     display: flex;
     justify-content: space-around;
 }
 
 .header__menu_item {
+    font-size: 28px;
     list-style: none;
     text-align: center;
     color: white;
-    margin: 15px
+    margin: 15px;
 }
 
 .header__menu_item:hover {
@@ -73,6 +67,7 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: 400px;
+    background-color: black;
 }
 
 .cdmw__inner {
@@ -124,30 +119,49 @@ body {
     background-color: white;
 }
 
+.turbo-price {
+    padding: 30px 0;
+}
+
+.regular-price {
+    padding: 30px 0;
+}
+
 .price-bg {
     background-image: url("../images/price-bg.png");
     background-position: center;
     background-repeat: no-repeat;
-    width: 600px;
-    height: 360px;
+    background-size: contain;
 }
 
 .price__list {
     text-align: center;
-    padding-top: 90px;
-    margin-top: 60px;
-    font-size: 36px;
+    padding: 50px;
+    margin: 30px;
+    font-size: 28px;
     font-weight: bold;
-    line-height: 36px;
+    line-height: 28px;
     list-style: none;
+}
+
+.price__list:first-child {
+    padding-top: 40px;
 }
 
 .turbo-config__items {
     background-color: white;
 }
 
+.turbo-config__title {
+    padding: 30px;
+}
+
 .turbo-config__configuration {
     display: flex;
+}
+
+.turbo-config__img {
+    margin: 20px;
 }
 
 .turbo-config__info-text {
@@ -160,26 +174,47 @@ body {
 
 .our-games__inner {
     background-color: white;
+    background-image: url("../images/bg-games.png");
+    background-position: top center;
 }
 
 .our-games__games {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.csgo {
+    height: 228px;
+    width: 300px;
+    background-image: url("../images/csgo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.dota {
+    height: 228px;
+    width: 300px;
+    background-image: url("../images/dota2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
 }
 
 .gta {
-    width: 740px;
-    height: 740px;
-    background-image: url("../images/gta-logo.png"), url("../images/gta-ppl.svg");
+    width: 300px;
+    height: 200px;
+    background-image: url("../images/gta-logo300.png");
     background-repeat: no-repeat;
     background-position: center;
+    margin: 30px;
 }
 
 .pubg {
     height: 228px;
-    width: 400px;
-    background-image: url("../images/pubg.png");
+    width: 300px;
+    background-image: url("../images/pubg300.png");
     background-position: center;
     background-repeat: no-repeat;
     margin: 10px;
@@ -187,8 +222,8 @@ body {
 
 .blur {
     height: 228px;
-    width: 400px;
-    background-image: url("../images/blur.png");
+    width: 300px;
+    background-image: url("../images/blur300.png");
     background-position: center;
     background-repeat: no-repeat;
     margin: 10px;
@@ -196,58 +231,62 @@ body {
 
 .apex {
     height: 228px;
-    width: 400px;
-    background-image: url("../images/apex.png");
+    width: 300px;
+    background-image: url("../images/apex300.png");
     background-position: center;
     background-repeat: no-repeat;
     margin: 10px;
 }
 
 .farcry {
-    height: 215px;
-    width: 1200px;
-    background-image: url("../images/farcry.png");
+    height: 110px;
+    width: 300px;
+    background-image: url("../images/farcry300.png");
     background-position: center;
     background-repeat: no-repeat;
+    margin: 10px;
 }
 
 .rainbow {
-    height: 370px;
-    width: 1200px;
-    background-image: url("../images/rainbow-name.png"), url("../images/rainbow-ppl.png");
+    height: 110px;
+    width: 400px;
+    background-image: url("../images/rainbow-name300.png"), url("../images/rainbow-ppl300.png");
     background-position: center bottom;
     background-repeat: no-repeat;
+    margin: 20px;
 }
 
 .fortnite {
-    height: 215px;
-    width: 1200px;
-    background-image: url("../images/fortnite.svg");
+    height: 110px;
+    width: 400px;
+    background-image: url("../images/fortnite300.svg");
     background-position: center;
     background-repeat: no-repeat;
+    margin: 20px;
 }
 
 .cyberpunk {
     height: 215px;
-    width: 1200px;
-    background-image: url("../images/cyberpunk.png");
+    width: 300px;
+    background-image: url("../images/cyberpunk300.png");
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .valorant {
     height: 215px;
-    width: 1200px;
-    background-image: url("../images/valorant.png");
+    width: 300px;
+    background-image: url("../images/valorant300.png");
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .footer__inner {
-    height: 600px;
+    height: 500px;
     background-image: url("../images/big-logo.png");
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-color: black;
 }
 
 .footer__addres-text {
@@ -256,14 +295,14 @@ body {
     line-height: 48px;
     text-align: center;
     max-width: 800px;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 .footer__contact-tel {
+    display: block;
     color: white;
     font-size: 36px;
     line-height: 48px;
-    text-align: center;
-    max-width: 350px;
-    margin-top: 50px;
+    text-align: left;
+    margin: 10px;
 }
