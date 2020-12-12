@@ -223,6 +223,7 @@
     .price__list {
         padding-top: 10px;
         font-size: 18px;
+          padding: 10px;
     }
     .price-list-item {
         max-width: 400px;
@@ -257,7 +258,7 @@
     .price-list {
         max-width: 300px;
         margin: 0;
-        padding: 10px;
+      
     }
 }
 
