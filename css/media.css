@@ -257,6 +257,7 @@
     .price-list {
         max-width: 300px;
         margin: 0;
+        padding: 10px;
     }
 }
 
