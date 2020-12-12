@@ -27,9 +27,12 @@
 }
 
 @media(max-width: 1040px) {
+    body {
+        background-image: none;
+        background-color: black;
+    }
     .cdmw__inner {
         flex-wrap: wrap;
-        padding: 0 50px;
         justify-content: center;
     }
     .price__inner {
@@ -37,21 +40,22 @@
         justify-content: center;
     }
     .turbo-config__configuration {
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
     }
     .turbo-config__title {
         text-align: center;
-    }
-    .turbo-config__img {
-        /* display: none; */
+        margin: auto;
     }
     .gta {
-        width: 400px;
+        width: 300px;
         height: 300px;
         background-image: url("../images/gta-logo300.png"), url("../images/gta-ppl300.png");
         background-repeat: no-repeat;
         background-position: center;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -64,11 +68,9 @@
         height: 220px;
         margin: auto;
     }
-    .cdmw__inner {
-        padding: 0 50px;
-    }
-    .our-games__inner {
-        /* display: none; */
+    .header__menu-items {
+        display: flex;
+        justify-content: center;
     }
     .footer__inner {
         height: 350px;
@@ -104,6 +106,8 @@
         background-image: url("../images/fortnite300.svg");
         background-position: center;
         background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
     }
     .rainbow {
         height: 120px;
@@ -111,11 +115,27 @@
         background-image: url("../images/rainbow-name300.png"), url("../images/rainbow-ppl300.png");
         background-position: center bottom;
         background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
     }
     .farcry {
         height: 80px;
         width: 300px;
         background-image: url("../images/farcry300.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .valorant {
+        height: 80px;
+        width: 300px;
+        background-image: url("../images/valorant300.png");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .cyberpunk {
+        height: 80px;
+        width: 300px;
+        background-image: url("../images/cyberpunk300.png");
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -159,6 +179,8 @@
         background-repeat: no-repeat;
         background-position: center;
         height: 290px;
+        margin: 0;
+        padding: 0;
     }
     .csmw__most-wanted-name {
         background-image: url("../images/most-wanted-grafiti300.png");
@@ -172,9 +194,13 @@
         background-position: right;
         height: 160px;
         width: 300px;
+        margin: auto;
     }
     .turbo-config__title {
         width: 500px;
+    }
+    .turbo-config__configuration {
+        margin: auto;
     }
     .price-bg {
         width: 400px;
